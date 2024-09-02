@@ -1,0 +1,9 @@
+apiVersion: appscode.com/v1alpha2
+kind: KubeDB
+metadata: 
+  name: my-database 
+  namespace: default 
+spec:
+  databaseName: mydb 
+  version: "1.0"
+  replicas: 3 
